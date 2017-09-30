@@ -1,0 +1,156 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1200px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float: left;
+    width: 800px;
+}
+
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color:#861BBF;
+    text-decoration: none;
+    position: relative;
+}
+
+#brand img {
+    float: left;
+    /* width: 100px; */
+    height: 100px;
+}
+/* entire searchbox div floating right with a green background */
+#searchbox {
+    float: right;
+    /*
+     * background: linear-gradient(#E4F2B9, #BAE95B);
+     * background: -webkit-linear-gradient(#E4F2B9, #BAE95B);
+     * background: -o-linear-gradient(#E4F2B9, #BAE95B);
+     * background: -moz-linear-gradient(#E4F2B9, #BAE95B);
+     */
+    width: 300px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    /* add space between search box and border of the header */
+    margin-top: 20px;
+
+}
+
+/* text class for input of search box. */
+.text {
+    float:left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    /*
+     * image created using logomakr.com
+     * http://www.flaticon.com/authors/freepik
+     * resized using imagemagick command: convert -resize "25>" image.png image1.png
+     */
+    background: white url(images/search.png) right center no-repeat;
+    /* get rid of default dark border */
+    border: 1px solid #000000;
+
+}
+
+/* submit class for submit button of search box */
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    /* background-color property cannot be used for buttons */
+    background: #A751D6;
+    font-size: 15px;
+}
+.clear {
+   clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient( #F7F490 ,#D6D636);
+    background: -webkit-linear-gradient( #F7F490 ,#D6D636);
+    background: -o-linear-gradient( #F7F490 ,#D6D636);
+    background: -moz-linear-gradient( #F7F490 ,#D6D636);
+    /* to add padding between list items and menu div */
+    padding: 7px 0;
+    text-align: center;
+    
+}
+
+#menu ul {
+    text-align: center;
+}
+/* all lists inside the document will be styled with this tag */
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    /* get list to be horizontal by setting float to left */
+    /* float: left; */
+    display: inline-block;
+    padding: 0 30px;
+    width: 300px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    /* to center the text in the divider bars, line height */
+    line-height: 30px;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:#C765AD;
+}
+
+.sidebar {
+    height: 520px;
+    width: 375px;
+    background-color: lightblue;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    /* add padding to sidebar so we can have a gap before header */
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#rightsidebar {
+    margin-right: 0;
+}
+.sidebar h3 {
+    color: #C346E2;
+    font-size: 30px;
+}
