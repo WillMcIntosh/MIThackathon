@@ -24,7 +24,7 @@ body {
 h1 a {
     font-size: 50px;
     font-weight: 100;
-    color:#861BBF;
+    color: lightblue;
     text-decoration: none;
     position: relative;
 }
@@ -57,13 +57,13 @@ h1 a {
     width: 200px;
     padding: 5px;
     font-size: 15px;
-    color: #E36A0C;
+    color: rgb(0,69,104);
     /*
      * image created using logomakr.com
      * http://www.flaticon.com/authors/freepik
      * resized using imagemagick command: convert -resize "25>" image.png image1.png
      */
-    background: white url(images/search.png) right center no-repeat;
+    background: white url(images/resize_search.png) right center no-repeat;
     /* get rid of default dark border */
     border: 1px solid #000000;
 
@@ -74,9 +74,9 @@ h1 a {
     float: right;
     padding: 5px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 69, 104);
     /* background-color property cannot be used for buttons */
-    background: #A751D6;
+    background: lightblue;
     font-size: 15px;
 }
 .clear {
@@ -86,6 +86,7 @@ h1 a {
 #menu {
     height: 70px;
     background:lightblue;
+    border: 2px solid #000000;
     border-radius: 20px;
     /* to add padding between list items and menu div */
     padding: 7px 0;
@@ -123,29 +124,30 @@ ul {
 #menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 17px;
-    color: #5d12e7;
+    font-size: 19px;
+    color: rgb(0,69,104);
     /* to center the text in the divider bars, line height */
     line-height: 30px;
 }
 
 #menu ul li a:hover, #menu ul li a.active{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    color:#C765AD;
+    color:#01141e;
 }
 
 .sidebar {
     height: 520px;
     width: 375px;
     background-color: lightblue;
-    border: 1px solid #BAF46F;
+    border: 2px solid #000000;
     border-radius: 20px;
+    color: rgb(0, 69, 104); 
     /* add padding to sidebar so we can have a gap before header */
     padding: 10px 0px 10px 0px;
     margin-left: 8px;
     margin-top: 10px;
-    margin-right: 25px;
+    margin-right: 22px;
     display: inline-block;
 }
 
@@ -153,7 +155,7 @@ ul {
     margin-right: 5px;
 }
 .sidebar h3 {
-    color: #C346E2;
+    color: rgb(0,69,104);
     font-size: 30px;
     text-align: center;
 }
@@ -163,10 +165,16 @@ ul {
 }
 .img-circle {
     height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+.img-oval {
+    height: 150px;
     width: 300px;
     border-radius: 50%;
+    border: 1px solid #000000;
 }
-
 .sidebar ul {
     padding-top: 3px;
 }
@@ -176,12 +184,20 @@ ul {
     padding-bottom: 12px;
     padding-left: 50px;
     padding-top: 14px;
+    font-size: 20px;
     /* image from logomakr */
     background: url(images/arrow.png) no-repeat left center;
 }
 
+.logoImage {
+    height: 30px;
+    width: auto;
+}
 .footer {
     height: 60px;
-    padding: 10px 30px;
-    margin-top: 15px;
+    padding: 7px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: lightblue;
+    text-align: right;
 }
