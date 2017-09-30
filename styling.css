@@ -182,13 +182,17 @@ ul {
 .sidebar ul li {
     /* create space between list items */
     padding-bottom: 12px;
-    padding-left: 50px;
+    padding-left: 12px;
+    padding-right: 5px;
     padding-top: 14px;
     font-size: 20px;
     /* image from logomakr */
-    background: url(images/arrow.png) no-repeat left center;
+    background: no-repeat right center;
 }
 
+.ratingImages {
+    height: 40px;
+}
 .logoImage {
     height: 30px;
     width: auto;
