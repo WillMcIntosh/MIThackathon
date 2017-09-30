@@ -153,4 +153,16 @@ ul {
 .sidebar h3 {
     color: #C346E2;
     font-size: 30px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.footer {
+    height: 60px;
+    padding: 10px 30px;
+    margin-top: 15px;
 }
