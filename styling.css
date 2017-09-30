@@ -3,9 +3,11 @@ body {
 }
 
 #container {
-    width: 1200px;
+    width: 1220px;
     border: 1px solid grey;
+    border-radius: 20px;
     margin: 0 auto;
+    background: rgb(0,69,104);
 }
 
 #header {
@@ -83,12 +85,11 @@ h1 a {
 
 #menu {
     height: 70px;
-    background: linear-gradient( #F7F490 ,#D6D636);
-    background: -webkit-linear-gradient( #F7F490 ,#D6D636);
-    background: -o-linear-gradient( #F7F490 ,#D6D636);
-    background: -moz-linear-gradient( #F7F490 ,#D6D636);
+    background:lightblue;
+    border-radius: 20px;
     /* to add padding between list items and menu div */
     padding: 7px 0;
+    margin: 0 8px 0 8px;
     text-align: center;
     
 }
@@ -142,13 +143,14 @@ ul {
     border-radius: 20px;
     /* add padding to sidebar so we can have a gap before header */
     padding: 10px 0px 10px 0px;
+    margin-left: 8px;
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 25px;
     display: inline-block;
 }
 
 #rightsidebar {
-    margin-right: 0;
+    margin-right: 5px;
 }
 .sidebar h3 {
     color: #C346E2;
@@ -156,10 +158,27 @@ ul {
     text-align: center;
 }
 
+.headerImage {
+    text-align: center;
+}
 .img-circle {
+    height: 150px;
+    width: 300px;
     border-radius: 50%;
 }
 
+.sidebar ul {
+    padding-top: 3px;
+}
+
+.sidebar ul li {
+    /* create space between list items */
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-top: 14px;
+    /* image from logomakr */
+    background: url(images/arrow.png) no-repeat left center;
+}
 
 .footer {
     height: 60px;
