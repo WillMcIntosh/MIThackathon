@@ -151,6 +151,18 @@ ul {
     display: inline-block;
 }
 
+.spacer {
+    height: 190px;
+}
+.frontPage {
+    height: 442px;
+}
+
+#frontPageLogo {
+    display: block;
+    margin: auto;
+}
+
 #rightsidebar {
     margin-right: 5px;
 }
@@ -183,16 +195,99 @@ ul {
     /* create space between list items */
     padding-bottom: 12px;
     padding-left: 12px;
-    padding-right: 5px;
+    padding-right: 12px;
     padding-top: 14px;
     font-size: 20px;
+    margin-right: 10px;
     /* image from logomakr */
-    background: no-repeat right center;
+    /* background: no-repeat right center; */
 }
 
-.ratingImages {
-    height: 40px;
+#janetRatings #janet1 {
+    background: url("images/serverRatings/janet1.PNG") no-repeat right center;
 }
+
+#janetRatings #janet2 {
+    background: url("images/serverRatings/janet2.PNG") no-repeat right center;
+}
+
+#janetRatings #janet3 {
+    background: url("images/serverRatings/janet3.PNG") no-repeat right center;
+}
+
+#tomRatings #tom1 {
+    background: url("images/serverRatings/tom1.PNG") no-repeat right center;
+}
+
+#tomRatings #tom2 {
+    background: url("images/serverRatings/tom2.PNG") no-repeat right center;
+}
+
+#tomRatings #tom3 {
+    background: url("images/serverRatings/tom3.PNG") no-repeat right center;
+}
+
+#wendyRatings #wendy1 {
+    background: url("images/serverRatings/wendy1.PNG") no-repeat right center;
+}
+
+#wendyRatings #wendy2 {
+    background: url("images/serverRatings/wendy2.PNG") no-repeat right center;
+}
+
+#wendyRatings #wendy3 {
+    background: url("images/serverRatings/wendy3.PNG") no-repeat right center;
+}
+
+#crabRatings #crab1 {
+    background: url("images/foodRatings/crab1.PNG") no-repeat right center;
+}
+
+#crabRatings #crab2 {
+    background: url("images/foodRatings/crab2.PNG") no-repeat right center;
+}
+
+#crabRatings #crab3 {
+    background: url("images/foodRatings/crab3.PNG") no-repeat right center;
+}
+
+#crabRatings #crab4 {
+    background: url("images/foodRatings/crab4.PNG") no-repeat right center;
+}
+
+#lobsterRatings #lobster1 {
+    background: url("images/foodRatings/lobster1.PNG") no-repeat right center;
+}
+
+#lobsterRatings #lobster2 {
+    background: url("images/foodRatings/lobster2.PNG") no-repeat right center;
+}
+
+#lobsterRatings #lobster3 {
+    background: url("images/foodRatings/lobster3.PNG") no-repeat right center;
+}
+
+#lobsterRatings #lobster4 {
+    background: url("images/foodRatings/lobster4.PNG") no-repeat right center;
+}
+
+#shrimpRatings #shrimp1 {
+    background: url("images/foodRatings/shrimp1.PNG") no-repeat right center;
+}
+
+#shrimpRatings #shrimp2 {
+    background: url("images/foodRatings/shrimp2.PNG") no-repeat right center;
+}
+
+#shrimpRatings #shrimp3 {
+    background: url("images/foodRatings/shrimp3.PNG") no-repeat right center;
+}
+
+#shrimpRatings #shrimp4 {
+    background: url("images/foodRatings/shrimp4.PNG") no-repeat right center;
+}
+
+
 .logoImage {
     height: 30px;
     width: auto;
