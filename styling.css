@@ -309,8 +309,13 @@ ul {
     font-size: 2.5em;
     text-align: center;
     position: absolute;
-    top: 200px;
-    left: 350px;
+    top: 225px;
+    left: 475px;
     z-index: 2;
     display: none;
+}
+
+#reportContainer {
+    width: 550px;
+    height: auto;
 }
